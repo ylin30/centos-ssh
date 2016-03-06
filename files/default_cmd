@@ -1,0 +1,9 @@
+#!/bin/bash
+
+IPStr1=$(ip -o -4 addr list eth0)
+IPStr2=${IPStr1##*inet }
+IP=${IPStr2%%/*}
+echo "IP=$IP"
+
+echo "starting sshd"
+exec /usr/sbin/sshd -D

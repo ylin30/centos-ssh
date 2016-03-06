@@ -1,0 +1,5 @@
+8c1c00a1feb5d74e70a2373534fa51cb38df5f3b	files/default_cmd
+5fd90fce04a8d9e44548768716ea6e27924e02a8	files/ssh/authorized_keys
+0cba776c473db2999e8aa00d2c314d20778df4b8	files/ssh/id_rsa
+9293a4a7d8417344a6aa7cb1c2762d41a5eb848d	build
+eb484aff64aa75e7c473df6ce307ec33ecbc5bc4	Dockerfile
